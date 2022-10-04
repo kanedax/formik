@@ -17,18 +17,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 32%;
+    margin-top: 5%;
     width: 40vw;
-    height: 50vh;
+    height: auto;
     max-height: 100vh;
-    background-color: rgba(90, 134, 123, 0.171);
+    background-color: rgba(90, 134, 123, 0.295);
     border-radius: 5px;
 }
 
 .main-form input {
     width: 80%;
     padding: 5px;
-    margin: 3% 8% 5% 5%;
+    margin: 2% 8% 2% 5%;
     border-radius: 5px;
     outline: unset;
     border: solid 1px rgb(65, 65, 65);
@@ -43,7 +43,7 @@ label{
 
 button{
     width: 20%;
-    height: 7%;
+    height: 5%;
     text-align: center;
     margin-right: 16vw;
     margin-top: 0%;
@@ -69,7 +69,7 @@ textarea{
 .error-message{
     margin-right: 10%;
     color: red;
-    font-size: 1.7vw;
+    font-size: 1.2vw;
     margin-top: 0%;
     display: block;
 }
@@ -77,7 +77,24 @@ textarea{
 small{
     margin-right: 10%;
     color: red;
-    font-size: 1.7vw;
-    margin-top: -3%;
+    font-size: 1.2vw;
+    margin-top: 0%;
     display: block;
+}
+
+.field-container{
+    position: relative;
+}
+
+.fa-plus{
+    color: green;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.fa-minus-circle{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: red;
+    cursor: pointer;
 }
